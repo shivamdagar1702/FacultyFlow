@@ -54,8 +54,8 @@ HTML, CSS, vanilla JavaScript, Bootstrap 5, Node.js, Express, MySQL 8, bcrypt an
 
 ## Important demo limitations
 - This is a learning/demo baseline, not a production-ready university deployment.
-- The SGT University visual theme is an inspired, replaceable theme, not a claim of official branding. The `FF` monogram is a placeholder. Replace it only with a logo/brand asset you are authorised to use.
-- The login page uses a remotely hosted campus building background image; replace with a licensed/official campus image if authorised, or use a local asset.
+- The SGT University visual theme is an inspired, replaceable theme, not a claim of official branding. The project now uses the official SGT University logo asset from the university website at `public/assets/sgtu-logo.png`; keep it updated only with authorised university branding.
+- The login page uses a local high-resolution campus image from the official SGT University website at `public/assets/sgtu-campus-bg.webp`.
 - Leave duration is calendar days; holiday/weekend rules are not configured.
 - Leave quota validation, overlapping application checks, cancellation, delegation, notifications, timetable integration, CSV/PDF export, automated tests, backups and production deployment hardening are not implemented yet.
 - Leave balance usage is posted on final approval; opening balances should be configured by Admin before real testing. The demo currently records usage but does not enforce a balance limit.
